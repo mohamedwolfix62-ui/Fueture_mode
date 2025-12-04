@@ -1,0 +1,124 @@
+body{
+  background-color: #2c4584;
+  transform: translateY(-10px);
+  color: white;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/*   Header   */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  text-align: right; 
+}
+ 
+.hr1{
+  transform: translateY(-20px);
+  opacity: 0.15;
+  margin-bottom: -10px;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+}
+
+.logo1 {
+  color: rgb(0, 0, 0);
+}
+
+.logo2 {
+  color: white;
+}
+
+
+/*   Nav   */
+.nav1 a {
+  color: rgb(3, 4, 9  2);
+  margin-left: 12px; 
+  font-size: 16px;
+  transition: 0.3s ease; 
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav1 a:hover {
+  color: #8dadff;
+  transform: scale(1.1);
+}
+
+/*  imgs  */
+.contaner .contant img{
+  margin-top: -8px;
+}
+
+/* -------------------------
+   "من نحن"
+-------------------------- */
+.data {
+  width: 60%;
+  margin: 60px auto;
+  text-align: right;
+  margin-bottom:0;
+}
+
+.data1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.cco{
+  transform: translateY(-30px);
+}
+
+.are {
+  color: #cccccc;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.hr2{
+  opacity: 0.25;
+  transform: translateY(-100px);
+}
+
+/*  contant  */
+.hr3{
+  opacity: 0.25;
+}
+
+.pep {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.pepe {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  border-bottom: 0.5px rgba(255, 255, 255, 0.397) solid;
+}
+
+/*   pepole   */
+.pepole{
+  width:90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  transform: translateY(-100px);
+}
